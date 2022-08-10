@@ -1,0 +1,311 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Mert Ramazaoglu</title>
+<link href="reset.css" rel="stylesheet" type="text/css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+
+
+ <link href="jquery.flexslider.js" rel="stylesheet" type="text/css" />
+<link href="stil.css" type="text/css" rel="stylesheet" />
+<style type="text/css">
+<!--
+.flexslider {margin:0px auto !important; padding: 0; opacity: 1; -webkit-transition: opacity 1s ease; width:965px;}
+.flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;}
+.flexslider ol,ul,li{margin:0; padding:0; list-style: none;}
+.flexslider .slides img {width: 1024px; height:255px; display: block;}
+#orta #uyegiris #form #form1 input {
+}
+.flex-pauseplay span {text-transform: capitalize;}
+ 
+.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+html[xmlns] .slides {display: block;}
+* html .slides {height: 1%;}
+ 
+.slides div{background-color:black; opacity:0.7; bottom:0px; padding:0px; position:absolute ;font:13px Tahoma; text-align:center; border-radius:0 5px 0 0;}
+.slides div a{color:white; text-decoration:none;}
+ 
+.no-js .slides > li:first-child {display: block;}
+ 
+.flexslider {background: #fff; border: 4px solid #fff; position: relative; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; box-shadow: 0 1px 4px rgba(0,0,0,.2); -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2); -moz-box-shadow: 0 1px 4px rgba(0,0,0,.2); -o-box-shadow: 0 1px 4px rgba(0,0,0,.2); zoom: 1;}
+.flex-viewport {max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease;}
+.loading .flex-viewport {max-height: 300px;}
+.flexslider .slides {zoom: 1;}
+ 
+.flex-direction-nav {*height: 0;}
+.flex-direction-nav a {width: 30px; height: 30px; margin: -20px 0 0; display: block; background: url(bg_direction_nav.png) no-repeat 0 0; position: absolute; top: 50%; z-index: 10; cursor: pointer; text-indent: -9999px; opacity: 0; -webkit-transition: all .3s ease;}
+.flex-direction-nav .flex-next {background-position: 100% 0; right: -36px; }
+.flex-direction-nav .flex-prev {left: -36px;}
+.flexslider:hover .flex-next {opacity: 0.8; right: 5px;}
+.flexslider:hover .flex-prev {opacity: 0.8; left: 5px;}
+.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {opacity: 1;}
+.flex-direction-nav .flex-disabled {opacity: .3!important; filter:alpha(opacity=30); cursor: default;}
+ 
+.flex-control-nav {width: 100%; position: absolute; bottom: -30px; text-align: center;}
+.flex-control-nav li {margin: 0 6px; display: inline-block; zoom: 1; *display: inline;}
+.flex-control-paging li a {width: 11px; height: 11px; display: block; background: #666; background: rgba(0,0,0,0.5); cursor: pointer; text-indent: -9999px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -o-border-radius: 20px; border-radius: 20px; box-shadow: inset 0 0 3px rgba(0,0,0,0.3); }
+.flex-control-paging li a:hover { background: #333; background: rgba(0,0,0,0.7); }
+.flex-control-paging li a.flex-active { background: #000; background: rgba(0,0,0,0.9); cursor: default; }
+ 
+.flex-control-thumbs {margin: 5px 0 0; position: static; overflow: hidden;}
+.flex-control-thumbs li {width: 25%; float: left; margin: 0;}
+.flex-control-thumbs img {width: 100%;display: block; opacity: .7; cursor: pointer;}
+.flex-control-thumbs img:hover {opacity: 1;}
+.flex-control-thumbs .flex-active {opacity: 1; cursor: default;}
+ 
+@media screen and (max-width: 860px) {
+ .flex-direction-nav .flex-prev {opacity: 1; left: 0;}
+ .flex-direction-nav .flex-next {opacity: 1; right: 0;}
+}
+ 
+.loading .flexslider {opacity: 0 !important;}
+.loading:before{content: 'Listeleniyor'; display: block; margin: 100px 0 0; text-align: center; color: black; font-weight: bold; font-size: 30px; opacity: 0.3;}
+body {
+	background-color: #dfebef;
+}
+#Layer1 {
+	position:absolute;
+	left:921px;
+	top:16px;
+	width:165px;
+	height:25px;
+	z-index:1;
+	background-color: #dfebef;
+}
+-->
+</style>
+
+ 
+
+<style type="text/css">
+
+<!--
+#ustyataymenu {
+	height: 50px;
+	background-color: #009999;
+}
+#ortakisim {
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	width: 1024px;
+	height: 150px;
+}
+#ortakisim #menu {
+	float: left;
+	width: 215px;
+	margin: 25px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#ortakisim #menu #giris {
+	background-color: #FFFFFF;
+	border: thin solid #CCCCCC;
+	padding: 0px;
+	margin-bottom: 20px;
+}
+#ortakisim #menu #giris #menuyazi {
+	padding: 10px;
+}
+#ortakisim #slider {
+	background-color: #FFFFFF;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	border: thick solid #FFFFFF;
+}
+#ortakisim #icerik {
+	width: 680px;
+	margin: 25px;
+	background-color: #FFFFFF;
+	float: right;
+	border: thin solid #CCCCCC;
+	padding: 10px;
+}
+#ortakisim #icerik #icerikyazilari {
+}
+body {
+	background-color: #99FFFF;
+}
+#ortakisim #menu #giris #yazi {
+	background-color: #e7e7e7;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding: 5px;
+}
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+.style1 {font-size: 14px}
+#ustyataymenu #ortalamenu {
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	width: 1024px;
+	height: 50px;
+}
+#ustyataymenu #ortalamenu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#ustyataymenu #ortalamenu li {
+	float: left;
+}
+#ustyataymenu #ortalamenu a {
+	display: block;
+	padding: 17px;
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	text-decoration: none;
+	font-weight: bold;
+}
+#ustyataymenu #ortalamenu a:hover {
+	background-color: #006666;
+	-webkit-transition: .3s ease-in-out;
+ -moz-transition: .3s ease-in-out;
+ transition: .3s ease-in-out; 
+}
+#ortakisim #menu #giris #menuyazi #login #form1 input {
+	border: thin solid #CCCCCC;
+}
+#ustkisim #ustort {
+	width: 1024px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	height: 120px;
+}
+#ustkisim #ustort #logo {
+	width: 400px;
+	height: 120px;
+	float: left;
+}
+#ustkisim #ustort #ustdiger {
+	height: 120px;
+}
+.style3 {
+	color: #666666;
+	font-size: 16px;
+}
+.style4 {
+	color: #009999;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+
+
+-->
+</style>
+</head>
+
+<body>
+<div id="ustkisim"><script> 
+var x=Math.floor((Math.random()*10)); 
+document.getElementById('ustkisim').style.background="url('images/" + x +".jpg') no-repeat";   
+</script> 
+  <div id="ustort">
+    <div id="logo"><img src="logo2.png" width="358" height="119" /></div>
+    <div id="ustdiger">
+      <div align="right"><img src="fb.png" width="64" height="64" /><img src="tt.png" width="64" height="64" /><img src="yt.png" width="64" height="64" /><img src="rss.png" width="64" height="64" /></div>
+    </div>
+  </div>
+</div>
+<div id="ustyataymenu">
+  <div id="ortalamenu">
+    <ul>
+      <li><a href="#">Anasayfa</a></li>
+	  <li><a href="#">Iletisim</a></li>
+	  <li><a href="#">Hakkimizda</a></li>
+	  <li><a href="#">Ziyaretçi Defteri</a></li>
+	  <li><a href="#">Üye Ol</a></li>
+    </ul>
+  </div>
+</div>
+<div id="ortakisim">
+  <div id="slider">
+    <section class="loading">
+      <div class="flexslider">
+        <ul class="slides">
+          <li>
+            <div><a href="#" rel="bookmark" target="_blank"></a></div>
+            <a href="#" rel="bookmark" target="_blank"><img width="645" height="300" src="1.jpg" alt="1" /></a></li>
+          <li>
+            <div><a href="#" rel="bookmark" target="_blank"></a></div>
+            <a href="#" rel="bookmark" target="_blank"><img width="690" height="300" src="2.jpg" alt="2" /></a></li>
+			<li>
+            <div><a href="#" rel="bookmark" target="_blank"></a></div>
+            <a href="#" rel="bookmark" target="_blank"><img width="690" height="300" src="3.jpg" alt="3" /></a></li>
+        </ul>
+      </div>
+    </section>
+    <script defer src="jquery.flexslider.js"></script>
+    <script type="text/javascript">
+$(window).load(function(){
+$('.flexslider').flexslider({
+animation: "slide",
+start: function(slider){
+$('section').removeClass('loading');
+}
+});
+});
+</script>
+  
+  <div style="clear:both"></div>
+  </div>
+  
+  
+  <div id="menu">
+    <div id="giris">
+      <div class="style1" id="yazi">Giri&#351; Yap </div>
+      <div id="menuyazi">
+        <div id="login">
+          <form id="form1" name="form1" method="post" action="giris.asp">
+            <p>
+              <input type="text" name="textfield" placeholder="E-Posta"/>
+            </p>
+            <p>
+              <input type="password" name="textfield2" placeholder="Sifre"/>            
+              </p>
+            <p>
+              <input type="submit" name="Submit" value="Giri&#351;" />
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div id="giris">
+      <div class="style1" id="yazi">Reklam</div>
+      <div id="menuyazi">
+        <p align="center"><img src="reklam.png" width="182" height="434" /></p>
+      </div>
+    </div>
+  </div>
+  
+  <div id="icerik">
+   
+      <p class="style4">Web Sitesi Nedir ? </p>
+      <p>&nbsp;</p>
+      <p class="style1">Web sitesi &ccedil;a&#287;&#305;n medyas&#305; olan Internet &uuml;zerin de yer alan size ait bir ileti&#351;im panosudur. Bilindi&#287;i &uuml;zere Internet, Radyo ve Televizyon gibi bir medya say&#305;lmakta ve etkinli&#287;i a&ccedil;&#305;s&#305;ndan di&#287;erlerinden &ouml;n plana &ccedil;&#305;kmaktad&#305;r. Bir&nbsp;web sitesi&nbsp;sayesinde, Firman&#305;z&#305;n tan&#305;t&#305;m&#305;n&#305; yada Kendiniz ile ilgili bilgilerin sunulmas&#305;n&#305; &ccedil;ok daha b&uuml;y&uuml;k kitlelere (t&uuml;m d&uuml;nyaya) en ekonomik &#351;ekilde yapabilirsiniz. Web siteniz bir bak&#305;ma sizin vizyonunuz olacakt&#305;r. Sitenizi ziyaret edenler firman&#305;z yada &uuml;r&uuml;nleriniz ve hizmetleriniz hakk&#305;nda daha detayl&#305; bilgiye sahip olacaklard&#305;r. Kurumsal kimli&#287;inizi tamamlam&#305;&#351; firman&#305;z ile web siteniz bir b&uuml;t&uuml;n olup, daha b&uuml;y&uuml;k bir anlam ta&#351;&#305;yacakt&#305;r.</p>
+      <p class="style3">&nbsp;</p>
+      <p align="center" class="style3"><img src="http://www.webteyim.org/aa.png" width="637" height="356" /></p>
+  </div>
+    <p>&nbsp;</p>
+  </div>
+  <div style="clear:both"></div>
+</div>
+</body>
+</html>
